@@ -1,6 +1,6 @@
 body
 {
- background: rgb(22, 21, 20);
+ background: #00AA55;
  font-size: 16px;
 }
 
@@ -24,29 +24,17 @@ ul li a
  text-decoration: none; 
 }
 
-ul li a p
-{
-  width: 75%;
-  list-style-type: none;
-  background: #E94016;
-  border-bottom: solid thin white;
-  padding: .3em 1em .3em;
-  text-decoration: none;
-  color: white;
-  font-size: 13px;
-}
-
-
 h1
 {
   padding-bottom: 2em;
   border-bottom: none;
-  font-size: 16px;
+  font-size: 32px;
+  font-family: 'Dancing Script', cursive;
   margin: 0;
   padding: 5px 0 .3em;
   line-height: 32px;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 h3
@@ -62,7 +50,7 @@ h3
 
 header.sidebar
 {
-  background-color: #EEEEEE;
+  background-color: black;
   width: 30%;
   background-size: cover;
   display: inline-block;
@@ -83,7 +71,7 @@ div.sidebar_userimage
   border-radius: 80px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0% 35% 0;
+  margin: 0% 0% 0;
   padding: 8% 0 0;
   text-align: center;
 
@@ -94,15 +82,15 @@ div.sidebar_userimage img
 
   border-radius: 50%;
   width: 200px;
+  height: 200px;
   margin: 0px;
-  padding-right:0px;
-  border: 1px solid #ccc; 
+  border: 5px double #ccc; 
 }
 
 div.comunidad-autoria
 {
   border-bottom: solid 1px white;
-  background: black;
+  background: red;
   border-top: solid 1px white;
   padding: 3% 0;
   margin: 12% 0;

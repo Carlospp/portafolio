@@ -1,44 +1,54 @@
-body
-{
+body{
  background: #00AA55;
  font-size: 16px;
 }
 
-a
-{
-  text-decoration: none;
+ul{
+  margin: 0% 0 0 10%;
 }
 
-ul
-{
-  margin: 20% 0 0% 0%;
-}
-
-ul li
-{
+ul li{
   list-style: none;
 }
 
-ul li a
-{
- text-decoration: none; 
-}
-
-h1
-{
-  padding-bottom: 2em;
+h1{
   border-bottom: none;
-  font-size: 32px;
+  color: white;
+  font-size: 2em;
   font-family: 'Dancing Script', cursive;
   margin: 0;
-  padding: 5px 0 .3em;
-  line-height: 32px;
+  line-height: 1em;
+  padding: 0.2em 0.3em 0em 0.3em;
   text-align: center;
-  color: white;
 }
+#icon{
+  width: 100%;
+  position: relative;
+  margin: 0 0 0 15% ;
+  padding: 0;
+}
+.social{
+  float: left;
+  padding-left: 1%;
+  margin: 0;
+}
+#enlaces{
+  padding: 5% 0 0 15%;
+  margin: 0;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.enlaces{
+  text-align: center;
+}
+.enlaces li a{
+  color:white;
+  font-size: 1.2em;
+  text-decoration: none;
 
-h3
-{
+}
+h3{
   text-transform: uppercase;
   font-size: 13px;
   line-height: 32px;
@@ -48,8 +58,7 @@ h3
   padding-bottom: .5em;
 }
 
-header.sidebar
-{
+header.sidebar{
   background-color: black;
   width: 30%;
   background-size: cover;
@@ -60,13 +69,11 @@ header.sidebar
   top: 0;
 }
 
-section.sidebar_information
-{
+section.sidebar_information{
   color: white;
 }
 
-div.sidebar_userimage
-{
+div.sidebar_userimage{
   cursor: pointer;
   border-radius: 80px;
   background-repeat: no-repeat;
@@ -77,58 +84,16 @@ div.sidebar_userimage
 
 }
 
-div.sidebar_userimage img
-{
-
+div.sidebar_userimage img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: 50%;
   margin: 0px;
-  border: 5px double #ccc; 
+  border: 5px double white; 
 }
 
-div.comunidad-autoria
-{
-  border-bottom: solid 1px white;
-  background: red;
-  border-top: solid 1px white;
-  padding: 3% 0;
-  margin: 12% 0;
-}
 
-div.logo
-{
-  display: inline-block;
-  width: 30%;
-  text-align: center;
-  padding: 3% 0 0;
-}
-
-div.logo img
-{
-  width: 45px;
-  border-radius: 45px;
-  padding: 0;
-  margin: 0;
-}
-
-div.nombre
-{
-display: inline-block;
-vertical-align: top;
-padding: 0;
-margin: 0% 33%;
-font-size: 15px;
-text-align: center;
-}
-
-div.nombre p
-{
-  color: rgb(255, 255, 255)
-}
-
-div.layout-principal
-{
+div.layout-principal{
   position: absolute; 
   top: 0; 
   right: 0; 
@@ -138,17 +103,11 @@ div.layout-principal
   padding: 0% 6.5%;
 }
 
-div.bloque
-{
+div.bloque{
   margin: 5% 0 0;
 }
 
-div.bloque p
-{
+div.bloque p{
   color: rgb(255, 255, 255);
   line-height: 1.9em;
-}
-.social{
-  float: left;
-  padding-left: 10px;
 }

@@ -74,7 +74,9 @@ h2{
 .bloque ul{
     margin: 0;
     padding: 0 0 0 1em ;
-    background:#ffff00;
+    color: white;
+    font-style:italic;
+
 }
 header.sidebar{
   background-color: black;
@@ -112,17 +114,18 @@ div.layout-principal{
   top: 0; 
   right: 0; 
   bottom: 0;
-    float: right;
+  float: right;
   overflow-x: auto;
-  width: 50%;
-  padding: 0% 20% 0 0%;
-  background: blue;
+  width: 70%;
+  padding: 0% 0% 0 0%;
+  background: black;
 }
 
 div.bloque{
     margin:  0;
     padding: 0;
-    background: url("img/winmetal.jpg");
+    background: url("../img/AA5.jpg")center center no-repeat;
+    background-size: 100% 90%;
     float: left;
     display: inline-block;
     position: relative;
@@ -132,7 +135,8 @@ div.bloque{
 div.bloque2{
     margin:  0;
     padding: 0;
-    background: green;
+    background: url("../img/148.jpg")center center no-repeat;
+    background-size: 100% 100%;
     float: right;
     display: inline-block;
     position: relative;
@@ -142,7 +146,8 @@ div.bloque2{
 div.bloque3{
     margin:  0;
     padding: 0;
-    background: darkgreen;
+    background: url("../img/208.jpg")center center no-repeat;
+    background-size: 100% 100%;
     float: right;
     display: inline-block;
     position: relative;
@@ -156,7 +161,12 @@ div.bloque p{
 
 .correo p{
   text-decoration:none;
-  padding: 0% 20% 0 0%;
+  margin: 10% 0% 0 20%;
+  width: 50%;
   font-size:2em;
-} 
+  float: right;
+  color: white;
+  text-shadow: 1px 1px 0px black;
+
+}
 
